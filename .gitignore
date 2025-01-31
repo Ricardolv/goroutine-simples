@@ -1,0 +1,62 @@
+# Binaries for programs and plugins
+*.exe
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Go modules
+go.mod
+go.sum
+
+# Dependency directories (vendor folder and workspace)
+vendor/
+
+# IntelliJ IDEA specific files
+.idea/
+*.iml
+*.iws
+
+# macOS specific files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# macOS resource forks
+._*
+
+# Thumbnails
+._.Trashes
+.Trashes
+
+# Temporary and build files
+*.tmp
+*.log
+*.swp
+*.swo
+*.bak
+
+# Coverage output
+*.coverprofile
+*.cov
+*.coverage
+
+# Docker specific
+*.tar
+*.gz
+*.img
+.env
+.env.*
+
+
+# Webstorm/IntelliJ plugins
+.vscode/
+*.sublime-workspace
+
+# Test result artifacts
+*.out
+*_test.result
+
+# Generated files
+gen/
